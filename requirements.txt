@@ -1,0 +1,8 @@
+fairchem-core
+ase
+pymatgen
+botorch
+gpytorch
+scikit-learn
+pandas
+torch
