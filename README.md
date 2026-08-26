@@ -31,4 +31,4 @@ Each subfolder has its own `requirements.txt` — install within the subfolder y
 
 ## Author
 
-Sahar Bayat — PhD Candidate, [Risko Lab]([https://cbirt.as.uky.edu/](https://www.riskolab.org/)), University of Kentucky
+Sahar Bayat — PhD Candidate, [Risko Lab](https://www.riskolab.org/), University of Kentucky
