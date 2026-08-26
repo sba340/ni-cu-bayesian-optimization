@@ -6,10 +6,10 @@ configurations, developed as part of ongoing DFT/ML-driven catalyst discovery re
 ## Contents
 
 ### [`discrete-benchmark/`](./discrete-benchmark)
-Reproduces a published discrete-candidate-pool BO method
-([Kayode, Hill & Montemore, 2023, *J. Mater. Chem. A*](https://doi.org/10.1039/D3TA02830E)) on a
-fixed lookup table of pre-computed DFT adsorption energies. No relaxations run live — this
-validates the BO search strategy itself against a known dataset and benchmarks it against random
+A discrete-candidate-pool BO workflow for Ni–Cu catalyst screening, guided by the approach in
+([Kayode, Hill & Montemore, 2023, *J. Mater. Chem. A*](https://doi.org/10.1039/D3TA02830E)) and
+adapted to a fixed lookup table of pre-computed DFT adsorption energies. No relaxations run live —
+this validates the BO search strategy against a known dataset and benchmarks it against random
 search.
 
 ### [`active-learning-screening/`](./active-learning-screening)
