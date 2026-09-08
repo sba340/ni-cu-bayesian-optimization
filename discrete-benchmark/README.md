@@ -32,6 +32,12 @@ pip install numpy pandas scikit-learn matplotlib openpyxl
 
 Place `dataset.xlsx` alongside the notebook, set `TARGET_EADS` and `CATALYST` in the single-target example cell, and run top to bottom.
 
+### Methodology notes
+The prior-mean GPR variant (`BO_discrete_prior_mean.ipynb`) uses the cheap FAIRChem-predicted
+adsorption energy as an informative prior mean rather than a bare input feature, following a
+technique introduced in a Bayesian optimization workshop. No workshop code or data is included
+in this repository.
+
 ## Reference
 
 Kayode, G. O.; Hill, A. F.; Montemore, M. M. Bayesian optimization of single-atom alloys and other bimetallics: efficient screening for alkane transformations, CO₂ reduction, and hydrogen evolution. *J. Mater. Chem. A* **2023**, *11*, 19128–19137.
