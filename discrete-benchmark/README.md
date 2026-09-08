@@ -34,9 +34,7 @@ Place `dataset.xlsx` alongside the notebook, set `TARGET_EADS` and `CATALYST` in
 
 ### Methodology notes
 The prior-mean GPR variant (`BO_discrete_prior_mean.ipynb`) uses the cheap FAIRChem-predicted
-adsorption energy as an informative prior mean rather than a bare input feature, following a
-technique introduced in a Bayesian optimization workshop. No workshop code or data is included
-in this repository.
+adsorption energy as an informative prior mean rather than a bare input feature.
 
 ## Reference
 
