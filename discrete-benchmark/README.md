@@ -1,6 +1,6 @@
 # Discrete Bayesian Optimization for Ni-Cu Catalyst Screening
 
-Adapts the Bayesian optimization workflow from [Kayode, Hill & Montemore (2023), *J. Mater. Chem. A*, 11, 19128](https://doi.org/10.1039/D3TA02830E) to a Ni-Cu bimetallic coking-susceptibility dataset. Reproduces the paper's discrete-candidate-pool BO loop exactly — no ML potentials, relaxations, or continuous optimizers in the search itself.
+Adapts the Bayesian optimization workflow from [Kayode, Hill & Montemore (2023), *J. Mater. Chem. A*, 11, 19128](https://doi.org/10.1039/D3TA02830E) to a Ni-Cu bimetallic coking-susceptibility dataset. 
 
 ## What this does
 
@@ -11,7 +11,7 @@ Given a fixed set of pre-computed DFT adsorption energies (one value per candida
 3. Pulls that candidate's energy from the lookup table (standing in for an actual DFT calculation)
 4. Repeats until the recommendation lands within ±2% of a target adsorption energy, or 14 additional calculations are used — both stopping criteria taken directly from the paper
 
-Includes a validation section benchmarking BO against random search across randomized targets, and a feature ablation testing whether a cheap ML-predicted energy descriptor improves search efficiency — mirroring Figs. 3c and 3d of the paper.
+Includes a validation section benchmarking BO against random search across randomized targets, and a feature ablation testing whether a cheap ML-predicted energy descriptor improves search efficiency.
 
 ## Data
 
