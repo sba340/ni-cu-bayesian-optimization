@@ -39,8 +39,8 @@ sp-rx-surrogate-screening/
 ├── sp_rx_surrogate_bo.ipynb        # main notebook
 ├── requirements.txt
 ├── data/
-│   ├── dataset.xlsx                # 50 known structures (SP + RX, ground truth)
-│   └── dataset10000.xlsx           # candidate pool (SP only, + outside_training_range flag, + structure_file names)
+│   ├── dataset.xlsx                # 50 known structures (SP + RX, ground truth) you need to provide your own known structures with identified SP and RX energies.
+│   └── dataset10000.xlsx           # candidate pool (SP only, + outside_training_range flag, + structure_file names) you need to provide your own large dataset with identified SP energies.
 └── results/
     └── top20_BO_candidates.xlsx    # top 20 candidates selected for the next DFT round
 ```
